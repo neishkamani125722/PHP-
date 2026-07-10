@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Friendzone University - Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="logo.png" alt="Logo">
+        <h1>Friendzone University</h1>
+    </div>
+</header>
+
+<div class="container">
+
+    <h2>Student Login</h2>
+
+    <form id="loginForm">
+
+        <input
+            type="text"
+            id="loginUsername"
+            placeholder="Username"
+            required>
+
+        <input
+            type="password"
+            id="loginPassword"
+            placeholder="Password"
+            required>
+
+        <button type="submit">
+            Login
+        </button>
+
+    </form>
+
+    <a href="register.html">
+        Create New Account
+    </a>
+
+</div>
+
+<div id="popup" class="popup">
+
+    <div class="popup-content">
+
+        <img src="logo.png" alt="Logo">
+
+        <h2>Friendzone University</h2>
+
+        <p id="popupMessage"></p>
+
+        <button onclick="closeLoginPopup()">
+            OK
+        </button>
+
+    </div>
+
+</div>
+
+<footer>
+    Made By Neish Kamani
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
